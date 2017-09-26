@@ -18,12 +18,13 @@ Django effects:
 Setup:
 
 1. Clone the repo
-2. Setup virtual environment(ex: virtualenv -p python3 env)
-3. Activate it(source env/bin/activate)
-4. pip install -r requirements.txt (pip with latest version based on python3)
-5. python3 manage.py migrate
-5. python3 manage.py createsuperuser (to create admin user credentials in local)
-6. python3 manage.py runserver
+2. Create a db in Mysql and map with the same name in django settings (currently it is "recruitment")
+3. Setup virtual environment(ex: virtualenv -p python3 env)
+4. Activate it(source env/bin/activate)
+5. pip install -r requirements.txt (pip with latest version based on python3)
+6. python3 manage.py migrate
+7. python3 manage.py createsuperuser (to create admin user credentials in local)
+8. python3 manage.py runserver
 
 Hit the browser with,
 
